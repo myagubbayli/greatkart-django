@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'accounts',
     'store',
     'carts',
+    'testingg',
+    'import_export'
 ]
 
 MIDDLEWARE = [
@@ -76,6 +78,8 @@ TEMPLATES = [
 WSGI_APPLICATION = 'greatkart.wsgi.application'
 
 AUTH_USER_MODEL = 'accounts.Account'
+
+IMPORT_EXPORT_USE_TRANSACTIONS = True
 
 
 # Database
